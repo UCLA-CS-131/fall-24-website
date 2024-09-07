@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
+title: CS 131 Fall 2024
+tagline: Course website for Fall 2024 CS 131 | Programming Languages at UCLA
+description: Course website for Fall 2024 CS 131 | Programming Languages at UCLA
+author: Matthew Wang, Ruining Ding, Brian Wang, Bonnie Liu
+baseurl: '/fall-24-website' # the subpath of your site, e.g. /blog
+url: 'https://ucla-cs-131.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -28,11 +28,25 @@ search_enabled: true
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Kevin Lin:
-    - 'https://kevinl.info'
-  Just the Class on GitHub:
-    - 'https://github.com/kevinlin1/just-the-class'
-footer_content:
+  Website on GitHub:
+    - 'https://github.com/UCLA-CS-131/fall-24-website'
+
+nav_external_links:
+
+  - title: Campuswire
+    url: https://campuswire.com/c/GFBA7A8E4
+  - title: Gradescope
+    url: https://www.gradescope.com/courses/626344
+  - title: Lecture Slides (original with animations)
+    url: https://drive.google.com/drive/folders/1rdBXZnlcCXOVou0dbjeNIfntSly7iy9R?usp=share_link
+  - title: Lecture Slides (flattened for note taking)
+    url: https://drive.google.com/drive/folders/12eA-xhGKXDWGqzJHyYluR6hZun3GmXC4?usp=drive_link
+  - title: Discussion Resources
+    url: https://drive.google.com/drive/folders/1TBOqhuq2-JFEcW0KNkbnC6UXtpGUsATe?usp=sharing
+  - title: Barista
+    url: https://barista-f23.fly.dev
+  - title: Past Website
+    url: https://ucla-cs-131.github.io/fall-23-website/
 
 # Collections for website data
 collections:
@@ -77,3 +91,36 @@ compress_html:
 liquid:
   error_mode: strict
   strict_filters: true
+
+# Adds a "Back to Top" link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Adds the "Edit this page on GitHub" link to the footer of each page
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/UCLA-CS-131/spring-23" # NOTE: update this to your new repo!
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# Callouts let you add vibrant UI elements to notes
+# via markdown code like {: .note }
+callouts_level: quiet
+callouts:
+  important:
+    title: Important
+    color: yellow
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: blue
+  warning:
+    title: Warning
+    color: red
+
+# Mermaid is a JS library that renders figures from markdown.
+# You may want to update this version; pick one from https://cdn.jsdelivr.net/npm/mermaid/
+mermaid:
+  version: "11.1.1"

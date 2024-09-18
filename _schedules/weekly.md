@@ -1,5 +1,8 @@
 ---
 timeline:
+  - '8:00 AM'
+  - '8:30 AM'
+  - '9:00 AM'
   - '9:30 AM'
   - '10:00 AM'
   - '10:30 AM'
@@ -17,6 +20,7 @@ timeline:
   - '4:30 PM'
   - '5:00 PM'
   - '5:30 PM'
+  - '6:00 PM'
 schedule:
   - name: Times
   - name: Monday
@@ -46,6 +50,6 @@ schedule:
         location: Broad Art Center 2160E / Moore Hall 100
       - name: Section 1D
         start: 8:00 AM
-        end: 10:00 AM
+        end: 9:50 AM
         location: Boelter Hall 3400
 ---

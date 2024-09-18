@@ -19,7 +19,8 @@ description: Course website for Fall 2024 CS 131 | Programming Languages at UCLA
 author: Matthew Wang, Ruining Ding, Brian Wang, Bonnie Liu
 baseurl: '/fall-24-website' # the subpath of your site, e.g. /blog
 url: 'https://ucla-cs-131.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor", "README.md", "_modules/to_change", 
+"lectures/old"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.9.0

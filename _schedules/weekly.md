@@ -42,7 +42,7 @@ schedule:
     events:
       - name: Section 1A
         start: 10:00 AM
-        end: 11:50 PM
+        end: 11:50 AM
         location: Public Affairs Building 1246
       - name: Section 1B / 1C
         start: 12:00 PM

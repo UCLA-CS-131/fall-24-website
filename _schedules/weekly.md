@@ -1,6 +1,5 @@
 ---
 timeline:
-  - '9:00 AM'
   - '9:30 AM'
   - '10:00 AM'
   - '10:30 AM'
@@ -19,48 +18,34 @@ timeline:
   - '5:00 PM'
   - '5:30 PM'
 schedule:
+  - name: Times
   - name: Monday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 2:00 PM
+        end: 3:50 PM
+        location: Haines 39
   - name: Tuesday
   - name: Wednesday
     events:
       - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+        start: 2:00 PM
+        end: 3:50 PM
+        location: Haines 39
   - name: Thursday
+    events:
   - name: Friday
     events:
-      - name: Lecture
-        start: 9:30 AM
-        end: 10:30 AM
-        location: 150 Wheeler
-      - name: Section
-        start: 11:30 AM
-        end: 12:30 PM
-        location: 310 Soda
-      - name: Office Hours
-        start: 12:30 PM
-        end: 2:00 PM
-        location: 271 Soda
+      - name: Section 1A
+        start: 10:00 AM
+        end: 11:50 PM
+        location: Public Affairs Building 1246
+      - name: Section 1B / 1C
+        start: 12:00 PM
+        end: 1:50 PM
+        location: Broad Art Center 2160E / Moore Hall 100
+      - name: Section 1D
+        start: 8:00 AM
+        end: 10:00 AM
+        location: Boelter Hall 3400
 ---

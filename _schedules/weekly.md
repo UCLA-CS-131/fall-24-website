@@ -52,4 +52,8 @@ schedule:
         start: 8:00 AM
         end: 9:50 AM
         location: Boelter Hall 3400
+      - name: Section 1E
+        start: 2:00 PM
+        end: 3:50 PM
+        location: Fowler Museum at UCLA A103B
 ---

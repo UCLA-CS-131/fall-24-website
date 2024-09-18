@@ -8,7 +8,7 @@ description: >-
 # Syllabus
 {:.no_toc}
 
-<!-- Google Doc version: [Syllabus](https://docs.google.com/document/d/1ZLlCujkQNmtnSxPpQSdaravZsBLojO14CWjaP1sU-wU/edit?usp=sharing). -->
+<!-- Google Doc version: [Syllabus](https://docs.google.com/document/d/1hhIuZqFSrjSGuUPaTwHLqMSvSwi8k7jWETaTzmPEuwE/edit?usp=sharing). -->
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -34,7 +34,7 @@ Class times: M/W 2-4pm
 
 Course Location: Haines 39
 
-Instructor Office Hours: 4-5pm Mondays, 1-2pm Wednesdays @ Engineering VI 364
+Instructor Office Hours:
 
 Alternate Instructor Office Hours: by appointment @ Eng VI 299
 
@@ -42,14 +42,12 @@ Alternate Instructor Office Hours: by appointment @ Eng VI 299
 
 | TA | Section | Discussion | Office Hours | Email |
 |:---|:--------|:-----------|:-------------|:------|
-| Justin Cui | 1A | 10am-12pm Kaplan 169 | Fri 12pm-2pm on [zoom](https://ucla.zoom.us/s/9831978461) | [justincui@g.ucla.edu](mailto:justincui@g.ucla.edu) |
-| Bonnie Liu | 1B | 12pm-2pm Dodd 161 | Thur 10:30am-12:30pm at 3256-S Boelter | [bonnieliu@cs.ucla.edu](mailto:bonnieliu@cs.ucla.edu) |
-| Brian Wang | 1C | 2pm-4pm Boelter 5249 | Wed 4pm-6pm at 3256-S Boelter | [wangbri1@g.ucla.edu](mailto:wangbri1@g.ucla.edu) |
-| Andrey Storozhenko | 1D | 4pm-6pm Dodd 146 | Tues/Thurs 1pm-2pm at 3256-S Boelter | [storozhenko@cs.ucla.edu ](mailto:storozhenko@cs.ucla.edu ) |
-| Justin Cui | 1E | 2pm-4pm Rolfe 3134 | Fri 12pm-2pm on [zoom](https://ucla.zoom.us/s/9831978461) | [justincui@g.ucla.edu](mailto:justincui@g.ucla.edu) |
-| Brian Wang | 1F | 4pm-6pm Boelter 5264 | Wed 4pm-6pm at 3256-S Boelter | [wangbri1@g.ucla.edu](mailto:wangbri1@g.ucla.edu) |
-| Andrey Storozhenko | 1G | 2pm-4pm Bunche 3164 | Tues/Thurs 1pm-2pm at 3256-S Boelter | [storozhenko@cs.ucla.edu ](mailto:storozhenko@cs.ucla.edu ) |
-| Bonnie Liu | 1H | 4pm-6pm Dodd 161 | Thur 10:30am-12:30pm at 3256-S Boelter | [bonnieliu@cs.ucla.edu](mailto:bonnieliu@cs.ucla.edu) |
+| Bonnie Liu | 1A | 10am-12pm Public Affairs Building 1246 | TBD | [bonnieliu@cs.ucla.edu](mailto:bonnieliu@cs.ucla.edu) |
+| Andrey Storozhenko | 1B | 12pm-2pm Broad Art Center 2160E | TBD | [storozhenko@cs.ucla.edu](mailto:storozhenko@cs.ucla.edu ) |
+| Paymon Haddad | 1C | 12pm-2pm | Moore Hall 100 | TBD | [paymonhaddad2019@gmail.com](mailto:paymonhaddad2019@gmail.com) |
+| Boyan Ding | 1D | 8am-10am | Boelter Hall 3400 | TBD | [dboyan@cs.ucla.edu](mailto:dboyan@cs.ucla.edu) |
+| Einar Balan | 1E | 2pm-4pm | Fowler Museum at UCLA A103B | TBD | [einar.balan@gmail.com](mailto:einar.balan@gmail.com) |
+
 
 
 ## Topics and Exams

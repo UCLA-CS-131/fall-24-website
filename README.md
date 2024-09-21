@@ -1,39 +1,49 @@
----
-layout: home
-title: Just the Class
-nav_exclude: true
-permalink: /:path/
-seo:
-  type: Course
-  name: Just the Class
----
+# CS 131 Course Website - Fall 2024
 
-# Just the Class
+Hey there! This is the source code for the Fall 2024 CS 131 course website. It is built with:
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
+- [Jekyll](https://jekyllrb.com/), a [Ruby](https://www.ruby-lang.org/en/)-based static site generator
+- [just-the-docs](https://just-the-docs.github.io/just-the-docs/), a Jekyll theme providing the base styling and structure
+- [just-the-class](https://kevinl.info/just-the-class/), a template that extends just-the-docs for class-specific features
 
-- [announcements](announcements.md),
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+## Development Setup
 
-Just the Class is a template that extends the popular [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme, which provides a robust and thoroughly-tested foundation for your website. Just the Docs include features such as:
+This project follows general Ruby conventions. We highly suggest you use [rbenv](https://github.com/rbenv/rbenv) to manage your Ruby environment.
 
-- automatic [navigation structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://just-the-docs.github.io/just-the-docs/docs/search/) and page indexing,
-- and a set of [UI components](https://just-the-docs.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://just-the-docs.github.io/just-the-docs/docs/utilities).
+First, clone the repository.
 
-## Getting Started
+```sh
+git clone https://github.com/UCLA-CS-131/fall-23.git
+# or, with SSH
+git clone git@github.com:UCLA-CS-131/fall-23.git
+```
 
-Getting started with Just the Class is simple.
+Then, go into the folder, and install the relevant dependencies with bundler:
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `README.md` with your course information. [Be sure to update the url and baseurl](https://mademistakes.com/mastering-jekyll/site-url-baseurl/).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages.
+```sh
+$ cd fall-23
+$ bundle
+```
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([CSW8](https://ucsb-csw8.github.io/s22/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+Finally, serve the site:
 
-### Local development environment
+```sh
+$ bundle exec jekyll serve
+Configuration file: /Users/ruiningd/Desktop/131/fall-23/_config.yml
+            Source: /Users/ruiningd/Desktop/131/fall-23
+       Destination: /Users/ruiningd/Desktop/131/fall-23/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 1.919 seconds.
+ Auto-regeneration: enabled for '/Users/ruiningd/Desktop/131/fall-23'
+    Server address: http://127.0.0.1:4000/fall-23/
+  Server running... press ctrl-c to stop.
+```
 
-Just the Class requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler. To setup a local development environment, clone your template repository and follow the GitHub Docs on [Testing your GitHub Pages site locally with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).
+## Licensing and Attribution
+
+This site is distributed under the [MIT License](https://github.com/UCLA-CS-131/fall-22/blob/main/LICENSE) with the notice deriving from [Kevin Lin](https://kevinl.info/)'s work on [just-the-class](https://kevinl.info/just-the-class/).
+
+Matt Wang, a major author of this code, is also a maintainer for [just-the-docs](https://github.com/just-the-docs/just-the-docs).
+
+Have you used this code? We'd love to hear from you! [Submit an issue](https://github.com/UCLA-CS-131/fall-22/issues) or send us an email ([matt@matthewwang.me](mailto:matt@matthewwang.me)).

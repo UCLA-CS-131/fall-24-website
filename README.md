@@ -13,15 +13,15 @@ This project follows general Ruby conventions. We highly suggest you use [rbenv]
 First, clone the repository.
 
 ```sh
-git clone https://github.com/UCLA-CS-131/fall-23.git
+git clone https://github.com/UCLA-CS-131/fall-24-website.git
 # or, with SSH
-git clone git@github.com:UCLA-CS-131/fall-23.git
+git clone git@github.com:UCLA-CS-131/fall-24-website.git
 ```
 
 Then, go into the folder, and install the relevant dependencies with bundler:
 
 ```sh
-$ cd fall-23
+$ cd fall-24-website
 $ bundle
 ```
 
@@ -29,15 +29,6 @@ Finally, serve the site:
 
 ```sh
 $ bundle exec jekyll serve
-Configuration file: /Users/ruiningd/Desktop/131/fall-23/_config.yml
-            Source: /Users/ruiningd/Desktop/131/fall-23
-       Destination: /Users/ruiningd/Desktop/131/fall-23/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-                    done in 1.919 seconds.
- Auto-regeneration: enabled for '/Users/ruiningd/Desktop/131/fall-23'
-    Server address: http://127.0.0.1:4000/fall-23/
-  Server running... press ctrl-c to stop.
 ```
 
 ## Licensing and Attribution
@@ -46,4 +37,4 @@ This site is distributed under the [MIT License](https://github.com/UCLA-CS-131/
 
 Matt Wang, a major author of this code, is also a maintainer for [just-the-docs](https://github.com/just-the-docs/just-the-docs).
 
-Have you used this code? We'd love to hear from you! [Submit an issue](https://github.com/UCLA-CS-131/fall-22/issues) or send us an email ([matt@matthewwang.me](mailto:matt@matthewwang.me)).
+Have you used this code? We'd love to hear from you! [Submit an issue](https://github.com/UCLA-CS-131/fall-22/issues).

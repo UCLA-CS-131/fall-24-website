@@ -50,4 +50,4 @@ Alternate Instructor Office Hours: by appointment @ Eng VI 299
 
 
 ## Syllabus
-The syllabus can be found [here](https://docs.google.com/document/d/1hhIuZqFSrjSGuUPaTwHLqMSvSwi8k7jWETaTzmPEuwE/edit)
+The syllabus can be found [here](https://docs.google.com/document/d/1hhIuZqFSrjSGuUPaTwHLqMSvSwi8k7jWETaTzmPEuwE/edit).

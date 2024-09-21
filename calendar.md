@@ -20,7 +20,7 @@ description: Listing of course modules and topics.
   <label for="Exam">Exam</label>&nbsp;
 </form>
 
-*[Matt](https://matthewwang.me) says*: yes, the filtering leaves the day even if there's nothing there. Working on it!
+<!-- *[Matt](https://matthewwang.me) says*: yes, the filtering leaves the day even if there's nothing there. Working on it! -->
 
 
 {% for module in site.modules %}

@@ -5,7 +5,7 @@ description: CS 131 Home
 nav_order: 1
 ---
 
-# UCLA CS 131 - Fall 2023
+# UCLA CS 131 - Fall 2024
 
 Welcome to the course website for the Fall 2024 offering of CS 131 at UCLA.
 

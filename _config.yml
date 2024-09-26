@@ -44,8 +44,6 @@ nav_external_links:
     url: https://drive.google.com/drive/folders/1C36JJOtbb7dBU1hYbPuisS8m7dH6W4ff?usp=sharing
   - title: Barista
     url: https://barista-f23.fly.dev
-  - title: Past Website
-    url: https://ucla-cs-131.github.io/fall-23-website/
 
 # Collections for website data
 collections:

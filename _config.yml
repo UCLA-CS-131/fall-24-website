@@ -16,7 +16,7 @@
 title: CS 131 Fall 2024
 tagline: Course website for Fall 2024 CS 131 | Programming Languages at UCLA
 description: Course website for Fall 2024 CS 131 | Programming Languages at UCLA
-author: Matthew Wang, Ruining Ding, Brian Wang, Bonnie Liu
+author: Matthew Wang, Ruining Ding, Brian Wang, Bonnie Liu, Einar Balan
 baseurl: '/fall-24-website' # the subpath of your site, e.g. /blog
 url: 'https://ucla-cs-131.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "vendor", "README.md", "_modules/to_change", 
@@ -98,7 +98,7 @@ back_to_top_text: "Back to top"
 # Adds the "Edit this page on GitHub" link to the footer of each page
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/UCLA-CS-131/spring-23" # NOTE: update this to your new repo!
+gh_edit_repository: "https://github.com/UCLA-CS-131/fall-24-website" # NOTE: update this to your new repo!
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 

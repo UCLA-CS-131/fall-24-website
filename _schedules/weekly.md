@@ -29,21 +29,38 @@ schedule:
         start: 2:00 PM
         end: 3:50 PM
         location: Haines 39
+      - name: Andrey's OH
+        start: 10:00 AM
+        end: 12:00 PM
+        location: Boelter 3278
   - name: Tuesday
+    events:
+        - name: Boyan's OH
+          start: 10:00 AM
+          end: 12:00 PM
+          location: ENGR VI 395
   - name: Wednesday
     events:
-      - name: Lecture
-        start: 2:00 PM
-        end: 3:50 PM
-        location: Haines 39
+        - name: Einar's OH
+          start: 9:30 AM
+          end: 11:30 AM
+          location: Sculpture Garden
+        - name: Lecture
+          start: 2:00 PM
+          end: 3:50 PM
+          location: Haines 39
   - name: Thursday
     events:
+        - name: Bonnie's OH
+          start: 2:00 PM
+          end: 4:00 PM
+          location: Boelter 3278
   - name: Friday
     events:
-      - name: Section 1A
+      - name: Section 1A / Paymon's OH
         start: 10:00 AM
         end: 11:50 AM
-        location: Public Affairs Building 1246
+        location: Public Affairs 1246 / Boelter 3278
       - name: Section 1B / 1C
         start: 12:00 PM
         end: 1:50 PM

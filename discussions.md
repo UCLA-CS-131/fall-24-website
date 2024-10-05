@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Discussion Resources
-description: Discussion Section Resources
+title: Discussion Problems
+description: Discussion Problems and Solutions
 ---
 
-Below you'll find a link to ***all*** discussion section related resources for ***all*** sections (including LA worksheets and solutions).
+These are problems we go over during our discussion sections.  They are not graded, and used solely for teaching.
 
-- [Discussion Resources](https://drive.google.com/drive/folders/1C36JJOtbb7dBU1hYbPuisS8m7dH6W4ff?usp=sharing)
+- [Discussion Week 1 Problems](https://docs.google.com/document/d/1vDKkCyHyGTrJDsZs7UtnxpiZBUAHe93Gio94Rr-0Lv8/edit?usp=sharing)

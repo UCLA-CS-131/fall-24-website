@@ -36,14 +36,19 @@ nav_external_links:
 
   - title: Campuswire
     url: https://campuswire.com/c/GFBA7A8E4
+    opens_in_new_tab: true
   - title: Gradescope
     url: https://www.gradescope.com/courses/869551
+    opens_in_new_tab: true
   - title: Lecture Slides
     url: https://drive.google.com/drive/folders/1LoYIavpZMdKk3W_3YUzzYfrR6if4EtqM
+    opens_in_new_tab: true
   - title: Discussion Resources
     url: https://drive.google.com/drive/folders/1C36JJOtbb7dBU1hYbPuisS8m7dH6W4ff?usp=sharing
+    opens_in_new_tab: true
   - title: Barista
     url: https://barista-f23.fly.dev
+    opens_in_new_tab: true
 
 # Collections for website data
 collections:

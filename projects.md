@@ -15,7 +15,9 @@ Project 1 has been released! It is due at **11:59 PM PT on October 20th**. Some 
 - [Project Starter Template](https://github.com/UCLA-CS-131/fall-24-project-starter)
 - [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5088616/)
 - [Barista](https://barista-f23.fly.dev/)
-- [Using the Local Autograder + Barista](https://docs.google.com/presentation/d/1q5hSt7sX6ZyBEQQMGZyrf_AaIWB396ftnXoystpMF8A/) by Matt
+
+*Note*: The project autograder link is optional. It lets you access ~20% of the test cases
+that we run your project on to grade it so that you can test your project locally.
 
 *Note*: we're trying a new approach of highly interactive project grading, where you:
 

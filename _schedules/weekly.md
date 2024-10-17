@@ -57,6 +57,10 @@ schedule:
           location: Boelter 3278
   - name: Friday
     events:
+      - name: Section 1A
+        start: 10:00 AM
+        end: 11:50 AM
+        location: Public Affairs 1246
       - name: Section 1C / Paymon's OH
         start: 2:00 PM
         end: 3:50 PM

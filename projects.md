@@ -6,7 +6,7 @@ description: Project specs - build your own interpreter!
 
 # Project Specs
 
-## Project 1
+## Project 2
 
 Project 2 has been released! It is due at **11:59 PM PT on November 3rd**. Some links that you'll find helpful:
 

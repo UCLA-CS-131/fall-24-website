@@ -57,10 +57,10 @@ schedule:
           location: Boelter 3278
   - name: Friday
     events:
-      - name: Section 1C / Paymon's OH
-        start: 2:00 PM
-        end: 3:50 PM
-        location: Boelter 3286
+      - name: Section 1A
+        start: 10:00 AM
+        end: 11:50 AM
+        location: Public Affairs 1246
       - name: Section 1B / 1C
         start: 12:00 PM
         end: 1:50 PM
@@ -69,8 +69,8 @@ schedule:
         start: 8:00 AM
         end: 9:50 AM
         location: Boelter Hall 3400
-      - name: Section 1E
+      - name: Section 1E / Paymon's OH
         start: 2:00 PM
         end: 3:50 PM
-        location: Fowler Museum at UCLA A103B
+        location: Fowler Museum at UCLA A103B / Boelter 3286
 ---

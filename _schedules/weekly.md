@@ -32,7 +32,7 @@ schedule:
       - name: Andrey's OH
         start: 10:00 AM
         end: 12:00 PM
-        location: Boelter 3278
+        location: Boelter 3286
   - name: Tuesday
     events:
         - name: Boyan's OH

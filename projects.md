@@ -15,7 +15,7 @@ Some links that you'll find helpful:
 - [Project 3 Spec](https://docs.google.com/document/d/1seLyYfAJs9xj_XgE8mB23KHuAGQOCnfYmRAwW4P8u1k/edit?usp=sharing)
 - [Project Autograder](https://github.com/UCLA-CS-131/fall-24-autograder) - **includes test cases!!**
 - [Project Starter Template](https://github.com/UCLA-CS-131/fall-24-project-starter) - this will be updated with the project 2 solution in a few days
-- [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5088616/)
+- [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5228171/)
 - [Barista](https://barista-f23.fly.dev/)
 
 ## Project 2
@@ -25,7 +25,7 @@ Project 2 has been released! It is due at **11:59 PM PT on November 3rd**. Some 
 - [Project 2 Spec](https://docs.google.com/document/d/1M4e3mkNhUKC0d7dJZSetbR4M3ceq8y8BiGDJ4fMAK6I/edit?usp=sharing)
 - [Project Autograder](https://github.com/UCLA-CS-131/fall-24-autograder) - **includes test cases!!**
 - [Project Starter Template](https://github.com/UCLA-CS-131/fall-24-project-starter) - **including project 1 solution!**
-- [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5088616/)
+- [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5089286/)
 - [Barista](https://barista-f23.fly.dev/)
 
 ## Project 1

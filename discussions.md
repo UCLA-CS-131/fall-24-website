@@ -15,3 +15,4 @@ These worksheets are created by our wonderful LAs, Jeff and Ryan.  They are not 
 - [Week 4](https://docs.google.com/document/d/1aQWsblCpStCHRvJESBhM4iA_RpWT73KyVJK5GL3b7rA/edit?usp=sharing)
     - [Solutions](https://docs.google.com/document/d/18gmxne_O2Fe_1PTRcnSP3tADiQIKjPnapFUrLAa8OnI/edit?usp=sharing)
 - [Week 5](https://docs.google.com/document/d/1udF0GG_gBU-HIcABKUHQ8o3vgqQIFNQo52uIDZDlWkU/edit?usp=sharing)
+    - [Solutions](https://docs.google.com/document/d/1smzBqkEzfDagiAxTh0X87AUjGBYNbLDP1l34NAIsuno/edit?usp=sharing)

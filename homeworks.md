@@ -13,7 +13,8 @@ Homeworks will be released and turned in via Gradescope.  You will find links to
   - [Solutions](https://docs.google.com/document/d/10H3Y8PYFfa6Fq1A-lOegz0DHXnmlM_686x0Qto8_LVQ/view)
 - [Homework 3](https://docs.google.com/document/d/15VqwFBRs4xPDhLxb9SIWVTfctyHyx3g0JQ1zCDer2Hc/view), **(Due 11:59pm Wed Oct 23.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5174555).
   - [Solutions](https://docs.google.com/document/d/1Wk1bu_6gED8su3MIyp__Xg-OW9W7irIkAaeNfUexkcg/edit?usp=sharing)
-- [Homework 4](https://docs.google.com/document/d/150wkF73OZ2Sjwk_Aso5YSYYsPtJoa8uRb_5B86qjUVA/edit?usp=sharing), **(Due 11:59pm Wed Oct 30.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5212820)
+- [Homework 4](https://docs.google.com/document/d/150wkF73OZ2Sjwk_Aso5YSYYsPtJoa8uRb_5B86qjUVA/edit?usp=sharing), **(Due 11:59pm Wed Oct 30.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5212820).
   - [Solutions](https://docs.google.com/document/d/1m3StyyhkoJy7E7-o0KmZ5ygWXtli8PKMK0dfu58a0Q4/edit?usp=sharing)
-- [Homework 5](https://docs.google.com/document/d/1GePJxD7zteOOFcXdoZFIjNc0pd0hUpv9mIxPwIsZDXw/edit?usp=sharing), **(Due 11:59pm Wed Nov 6.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5246541)
+- [Homework 5](https://docs.google.com/document/d/1GePJxD7zteOOFcXdoZFIjNc0pd0hUpv9mIxPwIsZDXw/edit?usp=sharing), **(Due 11:59pm Wed Nov 6.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5246541).
+  - [Solutions](https://docs.google.com/document/d/1stBoxARZBIvlgpzpJHv3c6ruaSXhvZAuSOSOlMm8ftw/edit?usp=sharing) 
 - [Compiled list of all homework problems for the quarter](https://docs.google.com/document/d/1YIgwLcdviowm7UxWlvP_C8fcUQqzy3dj9Ll_9mRmu_w/view)

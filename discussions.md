@@ -16,3 +16,7 @@ These worksheets are created by our wonderful LAs, Jeff and Ryan.  They are not 
     - [Solutions](https://docs.google.com/document/d/18gmxne_O2Fe_1PTRcnSP3tADiQIKjPnapFUrLAa8OnI/edit?usp=sharing)
 - [Week 5](https://docs.google.com/document/d/1udF0GG_gBU-HIcABKUHQ8o3vgqQIFNQo52uIDZDlWkU/edit?usp=sharing)
     - [Solutions](https://docs.google.com/document/d/1smzBqkEzfDagiAxTh0X87AUjGBYNbLDP1l34NAIsuno/edit?usp=sharing)
+- [Week 6](https://docs.google.com/document/d/1DKa8G0kYjpx4JR8ja-adXEyeKIVY6Q5jyoOveLa6iaU/edit?usp=sharing)
+    - [Solutions](https://docs.google.com/document/d/1p2_IqMVRzj2BL-4G9HnsOOp3DMMphESbv3eMv-g0boI/edit?usp=sharing)
+- [Week 7](https://docs.google.com/document/d/1WWYrmPRXG9p28hD7716tNw0vyT4kcVMbMHzIANA_QGQ/edit?usp=sharing)
+    - [Solutions](https://docs.google.com/document/d/12iLWNbfnF_XMb-BuTjkd_-co48gjUi5vfR_F_qr_GgI/edit?usp=sharing)

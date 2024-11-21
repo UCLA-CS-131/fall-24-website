@@ -20,4 +20,6 @@ Homeworks will be released and turned in via Gradescope.  You will find links to
 - [Homework 6](https://docs.google.com/document/d/14xZw0MQGw94fa4XUgLEiX_WEjMyU5IP4BRoTo4knp_k/edit?usp=sharing), **(Due 11:59pm Wed Nov 13.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5290860).
   - [Solutions](https://docs.google.com/document/d/121aLqZ3TRaGKlCS6myIOkqB6a-6JlE7i-d5xFlE2CYY/edit?usp=sharing)
 - [Homework 7](https://docs.google.com/document/d/1sv0Mz7JEnGF1GUHF6BbhpWEa0AlWtza-wUVn3cnOUZU/edit?usp=sharing), **(Due 11:59pm Wed Nov 20.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5327845).
+  - [Solutions](https://docs.google.com/document/d/1LyT020rIjhYayARZcKfWMPXFXYWz99PO4HHocdQODfA/edit?usp=sharing)
+- [Homework 8](https://docs.google.com/document/d/1COYnaVWr8dYbUy3xnxIQB4iC_2FEmcLXMpXp9AYR9Ds/edit?usp=sharing), **(Due 11:59pm Wed Nov 27.)** [Gradescope submission](https://www.gradescope.com/courses/869551/assignments/5358906).
 - [Compiled list of all homework problems for the quarter](https://docs.google.com/document/d/1YIgwLcdviowm7UxWlvP_C8fcUQqzy3dj9Ll_9mRmu_w/view)

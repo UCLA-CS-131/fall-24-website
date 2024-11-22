@@ -23,6 +23,7 @@ Project 3 has been released! It is due at **11:59 PM PT on November 17th**. We'l
 Some links that you'll find helpful:
 
 - [Project 3 Spec](https://docs.google.com/document/d/1seLyYfAJs9xj_XgE8mB23KHuAGQOCnfYmRAwW4P8u1k/edit?usp=sharing)
+- [Project 3 Solution](https://github.com/UCLA-CS-131/fall-24-project-starter)
 - [Project Autograder](https://github.com/UCLA-CS-131/fall-24-autograder) - **includes test cases!!**
 - [Project Starter Template](https://github.com/UCLA-CS-131/fall-24-project-starter) - **including project 2 solution!**
 - [Gradescope Submission](https://www.gradescope.com/courses/869551/assignments/5228171/)

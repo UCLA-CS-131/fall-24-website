@@ -4,6 +4,8 @@ title: LA Worksheets
 description: Discussion Problems and Solutions
 ---
 
+# LA Worksheets
+
 These worksheets are created by our wonderful LAs, Jeff and Ryan.  They are not graded, and used solely for teaching.
 
 - [Week 1](https://docs.google.com/document/d/1vDKkCyHyGTrJDsZs7UtnxpiZBUAHe93Gio94Rr-0Lv8/edit?usp=sharing)

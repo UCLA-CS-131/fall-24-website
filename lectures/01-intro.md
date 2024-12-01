@@ -1,10 +1,6 @@
 ---
 title: "01. Intro"
-week: 1
-original_author: Matt Wang
-originally_written: 2022-09-26
-lecture_date: 2024-09-30
-author: Einar Balan
+author: Matt Wang
 layout: lecture
 parent: Lecture Notes
 ---

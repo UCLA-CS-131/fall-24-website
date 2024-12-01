@@ -43,6 +43,7 @@ The gist of it is that you'll need to update several things each week. This incl
 - **LA worksheets page**: found in discussions.md
 - **projects page**: found in projects.md
     - 3 days after every project is due, we should post the solutions (a link to the github repo)
+- **lecture notes**: if necessary, you can update the content for a lecture note in the lectures folder
 
 ## Licensing and Attribution
 

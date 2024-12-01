@@ -343,7 +343,7 @@ print("Your net worth is: ", net_worth(assets=10000, debt=3500))
 
 print("Their net worth is: ", net_worth(debt=45000, assets=19000))
 ```
-Many languages (like C++) support a combination of positional and named parameters.
+Many languages (like Python) support a combination of positional and named parameters.
 ```cpp
 print("Your net worth is: ", net_worth(10000, debt=3500))
 ```

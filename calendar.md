@@ -20,37 +20,32 @@ description: Listing of course modules and topics.
   <label for="Exam">Exam</label>&nbsp;
 </form>
 
+<!-- *[Matt](https://matthewwang.me) says*: yes, the filtering leaves the day even if there's nothing there. Working on it! -->
+
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
 
 <script>
-const groupArrayBy2 = (array) => {
-  const result = [];
-  for (let i = 0; i + 1 < array.length; i += 2) {
-    result.push([array[i], array[i + 1]]);
-  }
-  return result;
-};
-
 const LABELS = ['Lecture', 'Section', 'Posted', 'Due', 'Exam'];
 const modules = document.getElementsByClassName('module');
 const moduleDls = [...modules].map(module => module.children[0]);
-const items = [...moduleDls].map(module => groupArrayBy2([...module.children]));
+const items = [...moduleDls].map(module => module.children);
 
-const ddApplyClasses = (item, classDecider) => {
-  for (const [dt, dd] of item) {
-    dt.className = ''; // necessary ... for some reason?
-    dd.className = '';
-    const newClass = classDecider(dd);
-    dt.className = newClass;
-    dd.className = newClass;
+const ddApplyClasses = (children, classDecider) => {
+  for (const child of children){
+    if (child.nodeName != 'DD') {
+      continue;
+    }
+    child.className = ''; // necessary ... for some reason?
+    const newClass = classDecider(child);
+    child.className = newClass;
   }
 }
 
 const ddPredicateBuilder = (labels) => {
   return (ddNode) => {
-    console.log(ddNode.innerText)
     return labels
       // this toUpperCase is a hack to only catch the label
       .map(label => ddNode.innerText.includes(label.toUpperCase()))
@@ -67,7 +62,6 @@ const rerenderItems = () => {
     LABELS
       .map(label => document.getElementById(label).checked ? label : '')
       .filter(label => label !== '');
-  console.log(activeLabels);
 
   for (const item of items) {
     ddApplyClasses(item, ddClassDecider(ddPredicateBuilder(activeLabels)))

@@ -36,9 +36,6 @@ $ bundle exec jekyll serve
 You can find a detailed guide to running the website [here](https://ucla-cs-131.github.io/handbook/playbooks/update-website/)!
 
 The gist of it is that you'll need to update several things each week. This includes:
-- **the course calendar**: add files to /_modules
-    - each file represents the content for that week
-    - this is where we indicate to students which topics were covered in lecture on any given day
 - **homework page**: found in homeworks.md
 - **LA worksheets page**: found in discussions.md
 - **projects page**: found in projects.md

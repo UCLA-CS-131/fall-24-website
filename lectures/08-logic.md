@@ -1,22 +1,238 @@
 ---
-title: 19. Logic Programming
-week: 10
-lecture_date: 2024-12-05
-author: Einar Balan
-originally_written: 2022-11-30
-original_author: Ashwin Ranade
+title: "08. Logic Palooza "
+author: Ashwin Ranade, Einar Balan
 layout: lecture
 parent: Lecture Notes
 ---
 
 {: .note}
-This lecture note covers slides 17-48 of Logic Programming.
+This lecture note covers the Logic Palooza deck.
 
 ## Table of Contents
 {: .no_toc }
 
 {:toc}
 - dummy item
+
+##  Prolog and Logic Programming
+
+**Logic programming** is a paradigm where we express programs as a set of facts (relationships which are held to be true), and a set of rules (i.e. if A is true, then B is true).
+
+A program/user then issues queries against this these facts and axioms:
+
+Logic programming is declarative – programs specify "what" they want to compute, not "how" to do so.
+
+Examples:
+
+**Facts:**
+- Martha is Andrea's parent
+- Andrea is Carey's parent
+
+**Rules:**
+If X is the parent of Q, and Q is the parent of Y, then X is the grandparent of Y
+
+**Queries:**
+- Is Martha the grandparent of Carey?
+- Who is the grandparent of Carey?
+
+### Introduction to Prolog
+
+Prolog is used for theorem-proving (type checking is one such use case; it's in the Java compiler!) and has also been used to implement natural language processing and expert systems.
+
+Prolog mostly leans on *declarative* programming: you specify what you want, but now *how* you should get there; Prolog is responsible for figuring that out!
+
+When given a query, Prolog tries to find a chain of connections between the query and the specified facts and rules that lead to an answer.
+
+Every Prolog program is comprised of facts about the world, and a bunch of rules that can be used to discover new facts.
+
+### Prolog Facts
+
+A "fact" is a predicate expression that declares either...
+- An attribute about some thing (aka an atom); you can think of this as being "always true"
+  - `outgoing(ren)`
+- A relationship between two or more atoms or numbers:
+  - `parent(alice, bob)`
+  - `age(ren, 80)`
+  - `teaches(carey, course(cs, 131))`
+
+Implicitly, we're defining some terms:
+
+- an "atom" is a "thing". In the above examples, this includes `ren`, `alice`, and `bob`. They **must be lowercase**.
+- a "functor" is like a function (or relationship). In the above examples, this includes `outgoing`, `parent`, and `age`. They **must be lowercase**.
+
+If a fact isn't explicitly stated, it is false. For example, in the above case, since we didn't explicitly state it, `alice` is not outgoing.
+
+### Prolog Rules
+
+A rule lets us define a new fact in terms of one or more existing facts or rules.
+
+Each rule has two parts...
+- A "head" which defines what the rule is trying to determine
+- A "body" which specifies the conditions (aka subgoals) that allow us to conclude the head is true
+
+Rules can be defined with atoms, numbers, or *variables*. Variables like `X` and `Y` are like placeholders which Prolog will try to fill in as it tries to answer user queries. **Variables must always be capitalized**.
+
+
+```prolog
+% Facts:
+outgoing(ren).
+silly(ren).
+parent(alice, bob).
+age(ren, 80).
+parent(bob, carol).
+
+% Rules:
+comedian(P) :- silly(P), outgoing(P).
+grandparent(X, Y) :- parent(X,Q), parent(Q,Y).
+old_comedian(C) :- comedian(C),
+age(C, A), A > 60.
+```
+
+{: .note }
+
+Rules and facts might seem very different, but some would argue that they aren't! You could think of a fact as a rule that has no body. Then, it is [vacuously true](https://en.wikipedia.org/wiki/Vacuous_truth) (and thus, always true).
+
+#### Recursive Rules
+
+Rules can also be recursive and can have multiple parts!
+
+Similar to recursion and pattern matching in Haskell, Prolog processes rules from the top to the bottom. So, the base case(s) should always go first!
+
+```prolog
+% Recursive rules:
+ancestor(X, Z) :- parent(X,Z).
+ancestor(X, Z) :- parent(X,Y), ancestor(Y,Z).
+```
+
+Explanation of the above code block:
+
+X is the ancestor of Z if:
+- X is Z's parent
+- OR if X is some person Y's parent AND Y is an ancestor of person Z
+
+{: .note }
+Prolog uses something called the "closed-world assumption" (CWA). Basically, this means that only things that can be proven true by the program are true; *everything else* is false.
+
+#### Negation in Rules
+
+Rules can also use negation – but be careful!
+
+In Prolog, `not(something)` works as follows:
+
+1. Prolog tries to prove `something` is true using all of the program's facts and rules
+2. If `something` can't be proven as true, then `not(something)` is found to be true.
+
+
+```prolog
+% Rules with negation:
+serious(X) :- not(silly(X)).
+```
+
+For example, the query `serious(alice)` is true, since the closed-world assumption says that `silly(alice)` is false.
+
+## Prolog Queries
+We can create queries to answer true/false questions:
+- A query can match a simple fact...
+- Or it can execute a rule.
+
+Given this set of facts and rules (also known as a knowledge base):
+```
+% Facts:
+outgoing(alice).
+parent(alice, bob).			 
+parent(alice, brenda).
+parent(brenda, caitlin).	
+parent(caitlin, ned). 		 
+
+% Rules:
+grandparent(X, Y) :- parent(X,Q), parent(Q, Y). 
+```
+
+We can execute these queries. Prolog will then search through the knowledge base to find the answers.
+
+```prolog
+?- outgoing(alice)
+true
+?- grandparent(brenda, ned)
+true
+```
+
+The first query essentially asks, "Is Alice outgoing?" One of our facts (the first in our knowledge base) says she is, so the result is `true`. The second query asks, "Is Brenda the grandparent of Ned?" Based on our `grandparent` rule, Prolog determines that she is and the result is true.
+
+This is cool, but Prolog can do more than just answer yes or no questions! We can also retrieve certain information, like "who are Alice's parents?"
+- The query will find ALL possible matches.
+- The query can specify multiple unknowns.
+- And Prolog will find ALL consistent combinations of answers!
+
+```prolog
+?- parent(alice, Who)
+Who = bob
+Who = brenda
+
+
+?- grandparent(A, B)
+A = alice, B = caitlin
+A = brenda, B = ned
+```
+
+The variables `Who`, `A`, and `B` indicate an unknown that we want Prolog to fill in. Our first query is essentially asking "Who are Alice's parents?" Based on our knowledge base, Prolog deteremines that Bob and Brenda are her parents. Our second query asks to find all grandparents and their grandchildren.
+
+{: .note}
+A quick reminder on terminology: `alice` is an atom, `Who` is a variable, and `parent(alice, Who) is a query.
+
+
+
+## Resolution: How Prolog Answers Queries
+
+Example facts/rules:
+
+```prolog
+parent (nel, ted).
+parent (ann, bob).
+parent (ann, bri).
+parent (bri, cas).
+gparent( X ,  Y )  :-
+  parent(X,Q), parent(Q,Y).
+```
+
+Example query:
+
+```prolog
+gparent(ann, W)
+```
+
+Algorithm:
+1. Add our query to a goal stack
+2. Pop the top goal in our goal stack and match it with each item in our database, from top to bottom
+3. If we find a match, extract the variable mappings, and create a new map with the old+new mappings
+4. Create a new goal stack, copying over existing, unprocessed goals and adding new subgoals
+5. Recursively repeat the process on the new goal stack and the new mappings
+
+So initially, our goal stack is simply `gparent(ann,W)`, and our mappings are `{}`.
+Then, after matching the last rule, our goal stack becomes:
+
+
+```
+parent(X,Q)
+parent(Q,Y)
+```
+And our mappings are `{X->ann,W<->Y}`
+
+Then, pop the top rule off our goal stack. We have a potential match with `parent (nel, ted)`. So our goal stack becomes:
+
+```
+parent(Q,Y)
+```
+With the mappings: `{X->ann,W<->Y, Q->bob}`
+
+We pop the top rule off the stack again. There's no rule that matches `parent(bob,Y)`, which means the set of mappings we discovered were not valid.
+
+So we'll back-track one level up and continue searching for alternative mappings.
+
+If our goal stack is empty, we output variables from our mapping that were explicitly queried; in this case, our final mapping is:
+`{ X ->ann, W <-> Y <-> cas, Q ->bri }`
+
+So we return `cas`, since `W=cas`.
 
 ## Unification
 

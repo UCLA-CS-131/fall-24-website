@@ -1,10 +1,6 @@
 ---
 title: "02. Essential Python"
-week: 1
-author: Einar Balan
-lecture_date: 2024-10-2
-original_author: Ashwin Ranade
-originally_written: 2022-10-10
+author: Einar Balan, Ashwin Ranade
 layout: lecture
 parent: Lecture Notes
 ---

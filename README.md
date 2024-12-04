@@ -31,6 +31,17 @@ Finally, serve the site:
 $ bundle exec jekyll serve
 ```
 
+## A Guide to Weekly Updates
+
+You can find a detailed guide to running the website [here](https://ucla-cs-131.github.io/handbook/playbooks/update-website/)!
+
+The gist of it is that you'll need to update several things each week. This includes:
+- **homework page**: found in homeworks.md
+- **LA worksheets page**: found in discussions.md
+- **projects page**: found in projects.md
+    - 3 days after every project is due, we should post the solutions (a link to the github repo)
+- **lecture notes**: if necessary, you can update the content for a lecture note in the lectures folder
+
 ## Licensing and Attribution
 
 This site is distributed under the [MIT License](https://github.com/UCLA-CS-131/fall-22/blob/main/LICENSE) with the notice deriving from [Kevin Lin](https://kevinl.info/)'s work on [just-the-class](https://kevinl.info/just-the-class/).

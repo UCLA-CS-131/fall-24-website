@@ -12,7 +12,6 @@ Welcome to the course website for the Fall 2024 offering of CS 131 at UCLA.
 Some things that you can do:
 
 - [read the syllabus]({{site.baseurl}}/syllabus)
-- view the [course calendar]({{site.baseurl}}/calendar) for every lecture, discussion, homework, and exam for the quarter
 - use the [weekly schedule]({{site.baseurl}}/schedule) to find professor and TA office hours
 - read TA-written [lecture notes]({{site.baseurl}}/lectures) that add on existing slide content
 - view [project specs and canonical solutions]({{site.baseurl}}/projects)

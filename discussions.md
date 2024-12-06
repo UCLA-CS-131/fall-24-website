@@ -24,3 +24,4 @@ These worksheets are created by our wonderful LAs, Jeff and Ryan.  They are not 
     - [Solutions](https://docs.google.com/document/d/12iLWNbfnF_XMb-BuTjkd_-co48gjUi5vfR_F_qr_GgI/edit?usp=sharing)
 - [Week 8](https://docs.google.com/document/d/1uYAkXGlW4slZE_tNeSszyMMiaQ8WcGn_7LNOdw2-jEo/edit?usp=sharing)
     - [Solutions](https://docs.google.com/document/d/1I3nKtsZe7drBnqQr-gHE3fJsOoGnOy9tsASJizZliWc/edit?usp=sharing)
+- [Week 10](https://docs.google.com/document/d/1PYgGoUxnXcMLtY1O01faq1gzio75c45AnnjvijPifg8/edit?usp=sharing)

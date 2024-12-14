@@ -14,6 +14,7 @@ When relevant, the provided final is "Variation 1".
 
 | Final Questions (PDF) | Final Solutions (PDF) |
 |:------------------------|:------------------------|
+| Fall 2024 Final: [v1]({{site.baseurl}}assets/exams/fall-2024-final-v1.pdf), [v2]({{site.baseurl}}assets/exams/fall-2024-final-v2.pdf) | [Fall 2024 Final Solutions]({{site.baseurl}}assets/exams/fall-2024-final-solutions.pdf) |
 | [Fall 2023 Final]({{site.baseurl}}assets/exams/fall-2023-final.pdf) | [Fall 2023 Final Solutions]({{site.baseurl}}assets/exams/fall-2023-final-solutions.pdf) |
 | Spring 2023 Final: [v1]({{site.baseurl}}assets/exams/spring-2023-final-v1.pdf), [v2]({{site.baseurl}}assets/exams/spring-2023-final-v2.pdf) | [Spring 2023 Final Solutions]({{site.baseurl}}assets/exams/spring-2023-final-solutions.pdf) |
 | [Fall 2022 Final (Revised)]({{site.baseurl}}assets/exams/fall-2022-final-revised.pdf) | [Fall 2022 Final Solutions (Revised)]({{site.baseurl}}assets/exams/fall-2022-final-solutions-revised.pdf) |
